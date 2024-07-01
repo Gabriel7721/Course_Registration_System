@@ -37,8 +37,8 @@ const SchedulePage = (props) => {
           alignItems: 'flex-end',
         }}
       >
-        <h5>Nguyễn Đức Chiến</h5>
-        <sp>20066981</sp>
+        <h5>Bui Tran Anh Tri</h5>
+        <sp>Student1414230</sp>
       </div>
     </div>
   )

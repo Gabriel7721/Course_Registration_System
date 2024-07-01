@@ -24,7 +24,7 @@ function LoginToLookSchedule(props) {
         alignItems: 'center',
         flexDirection: 'column',
         backgroundImage:
-          'url(https://vnn-imgs-f.vgcloud.vn/2019/04/10/13/lam-mat-sach-diem-truong-dai-hoc-goi-sinh-vien-le-tu-khai-lai.jpg)',
+          'url(https://i.pinimg.com/originals/43/10/1e/43101e0f8ce036f57ad751712d6e7d58.jpg)',
         backgroundSize: 'cover',
       }}
     >

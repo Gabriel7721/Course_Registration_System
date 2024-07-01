@@ -55,7 +55,7 @@ const InforStudent = (props) => {
         >
           <h3>Thông tin sinh viên</h3>
           <img
-            src="https://zpsocial-f57-org.zadn.vn/eb953a960233e36dba22.jpg"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_emblem.svg/1200px-Anonymous_emblem.svg.png"
             alt="User"
             style={{
               marginLeft: 30,
