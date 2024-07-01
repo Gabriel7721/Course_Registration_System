@@ -1,0 +1,28 @@
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/student/pom.xml" />
+        <option value="$PROJECT_DIR$/regist_course/pom.xml" />
+        <option value="$PROJECT_DIR$/tuition_fee/pom.xml" />
+        <option value="$PROJECT_DIR$/old_student/pom.xml" />
+        <option value="$PROJECT_DIR$/look_up_points/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/look-up-points/pom.xml" />
+        <option value="$PROJECT_DIR$/regist-course/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/regist-courses/pom.xml" />
+        <option value="$PROJECT_DIR$/old-student/pom.xml" />
+        <option value="$PROJECT_DIR$/tuition-fee/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

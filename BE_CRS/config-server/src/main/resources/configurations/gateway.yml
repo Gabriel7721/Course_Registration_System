@@ -1,0 +1,27 @@
+eureka:
+  client:
+    register-with-eureka: false
+server:
+  port: 8222
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: look-up-points
+          uri: http://localhost:8091
+          predicates:
+            - Path=/api/v1/look-up-points/**
+        - id: regist-courses
+          uri: http://localhost:8092
+          predicates:
+            - Path=/api/v1/regist-courses/**
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0

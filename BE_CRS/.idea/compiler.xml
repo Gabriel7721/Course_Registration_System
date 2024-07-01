@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
+        <module name="look-up-points" />
+        <module name="tuition-fee" />
+        <module name="discovery" />
+        <module name="old-student" />
+        <module name="regist-courses" />
+        <module name="gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="student" target="22" />
+      <module name="student-info" target="22" />
+      <module name="student-infomation" target="22" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-server" options="-parameters" />
+      <module name="discovery" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="look-up-points" options="-parameters" />
+      <module name="old-student" options="-parameters" />
+      <module name="regist-courses" options="-parameters" />
+      <module name="student" options="-parameters" />
+      <module name="tuition-fee" options="-parameters" />
+    </option>
+  </component>
+</project>
