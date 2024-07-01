@@ -13,3 +13,13 @@ Thành phần:
 - Service xem điểm:
 - Service công nợ:
 - Service tốt nghiệp:
+
+------------------------------------------------------------------------------------------------------------------------
+```sh
+docker-compose up -d
+
+mvn spring-boot:run -pl RegistCoursesApplication
+mvn spring-boot:run -pl LookUpPointsApplication
+mvn spring-boot:run -pl OldStudentApplication
+mvn spring-boot:run -pl TuitionFeeApplication
+mvn spring-boot:run -pl GatewayApplication
